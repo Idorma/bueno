@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30-oct-2020, 23:52:35
+    Author     : idoia
+*/
+
+.p-eventos{
+  background-color: white;
+  width: 1200px;
+  height: 199px;
+  border: 8px solid black;
+  padding: 50px;
+  margin: auto;
+  overflow: auto;
+  font-size: 18px;
+  font: Candara;
+}
+.t-eventos{
+  background-color: white;
+  width: 1200px;
+  height: 199px;
+  border: 8px solid black;
+  padding: 50px;
+  margin: auto;
+  overflow: auto;
+  font-size: 18px;
+  font: Candara;
+}
+.t-eventos2{
+  width: 1200px;
+  height: 199px;
+  padding: 50px;
+  margin: auto;
+  font-size: 18px;
+  font: Candara;
+}
+.eventos-p{
+  width: 1200px;
+  height: 199px;
+  padding: 50px;
+  margin: auto;
+  font-size: 18px;
+  font: Candara;
+}

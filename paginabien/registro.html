@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/principal.css"/>
+    </head>
+    <body class="fondos">
+          <!--Formulario de registro-->
+          <div class="c-form">
+              
+          <h1>Registro</h1>
+       <form action="Ejercicio formulario">
+        <fieldset>
+            <legend>Datos de usuario</legend>
+            <label for="email">Email:</label>
+            <input type="email" name="email" value="" id="email" autocomplete="off" maxlength="40" size="40" required/>
+            <label for="Repite_email">Repite email:</label>
+            <input type="email" name="Repite_email"  id="Repite_email" autocomplete="off" maxlength="40" size="40" required/><br/><br/>
+            <label for="clave">Clave:</label>
+            <input type="password" name="clave"  id="clave" maxlength="40" size="40" required/>
+             <label for="repita_clave">Repita clave:</label>
+            <input type="password" name="repita_clave"  id="repita_clave" maxlength="40" size="40" required/>
+        </fieldset>
+        
+         <fieldset>
+           <legend>Datos personales</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre"  id="nombre" maxlength="40" required/><br/><br/>
+            <label for="fecha">Fecha de nacimiento:</label>
+            <input type="date" name="fecha"  min="1900-01-01" max="2500-12-31"/><br/><br/>
+            <label for="sexo">Sexo:</label>
+            <input type="radio" name="genero"  id="hombre"/>
+            <label for="hombre">Hombre</label> 
+            <input type="radio" name="genero"  id="mujer"/>
+            <label for="mujer">Mujer</label><br/><br/>
+            <label for="tele">Telefono:</label>          
+            <input type="tel" name="telefono"  id="tele" pattern="[0-9]{9}" maxlength="9" size="9"/>
+         </fieldset>
+        </form>
+       
+        <input type="reset" value="Limpiar datos"/>
+        <form method="get" action="Targeta-de-credito-main/index.html">
+            <button type="submit">Metodo de pago</button>
+        </form>
+          </div>
+    </body>
+</html>

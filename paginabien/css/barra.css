@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30-oct-2020, 23:47:21
+    Author     : idoia
+*/
+
+.b-principal {
+    font-size: 28px;
+    font: Candara;
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				background-color: white;
+			}
+			li {
+				display: inline;				
+			}
+			li a {
+				display: inline-block;
+				color: black;
+				text-align: center;
+				padding: 12px 16px;
+				text-decoration: none;
+			}
+			li a:hover, .barra:hover {
+				background-color: red;
+			}
+			.barra {
+				display: inline-block;
+			}
+			.barra-content {
+				display: none;
+				position: absolute;
+				background-color: grey;
+				min-width: 100px;
+			}
+			.barra-content a {
+				color: black;
+				padding: 12px 16px;
+				text-decoration: none;
+				display: block;
+			}
+			.barra-content a:hover {
+				background-color: LightGrey;
+			}
+			.barra:hover .barra-content {
+				display: block;
+			}	
+                        
+                        
